@@ -1,5 +1,3 @@
-import { v4 as uuidv4 } from 'uuid'
-
 export const multiOptionsMoc = [
   {
     name: 'Languages',
@@ -11,11 +9,11 @@ export const multiOptionsMoc = [
         child: [
           {
             name: 'JavaScript',
-            id: uuidv4()
+            id: 'qwer'
           },
           {
             name: 'Ruby',
-            id: uuidv4()
+            id: 'wer'
           },
           {
             name: 'Python',

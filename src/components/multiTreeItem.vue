@@ -48,20 +48,13 @@ const onToggleCheckbox = (currentModel: MultiOption) => {
 
         <img
           class="arrow"
-          v-if="!isOpen"
-          src="@/assets/svg/arrow.svg"
-          alt="arrow"
-          width="10"
-          height="9"
-        />
-        <img
-          class="arrow"
-          v-else-if="isOpen"
+          v-if="isOpen"
           src="@/assets/svg/arrow-open.svg"
           alt="arrow"
           width="10"
           height="9"
         />
+        <img class="arrow" v-else src="@/assets/svg/arrow.svg" alt="arrow" width="10" height="9" />
       </div>
       <div v-else>
         <span v-if="withCheckboxes">
