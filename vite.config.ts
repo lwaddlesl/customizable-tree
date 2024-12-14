@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   build: {
     lib: {
-      entry: 'src/components/multiTreeItem.vue',
+      entry: 'src/components/MultiTree.vue',
       name: 'multiTree',
       fileName: (format) => `multi-tree.${format}.js`
     },

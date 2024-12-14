@@ -72,7 +72,7 @@ const onToggleCheckbox = (currentModel: MultiOption) => {
       </div>
     </div>
     <div v-if="isFolder && isOpen" class="node">
-      <multiTreeItem
+      <MultiTree
         v-for="childModel in model.child"
         :key="childModel.id"
         class="item"
